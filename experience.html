@@ -132,7 +132,7 @@ a{text-decoration:none;color:inherit}
     .nav-drop .drop-menu { position: static; opacity: 1; visibility: visible; border: none; box-shadow: none; text-align: center; background: transparent; padding: 0; margin-top: 10px; }
     .drop-menu a { text-align: center; font-size: 0.9rem; }
     .lang-switch { margin-top: 30px; margin-left: 0; }
-    
+
     .page-header{padding:140px 0 40px}.page-title{font-size:2.8rem}
     .main{padding:20px 25px 80px;gap:30px}.comp-card{grid-template-columns:1fr;min-height:auto}
     .comp-img-wrap{height:250px;min-height:250px}.comp-content{padding:30px 25px}.comp-h3{font-size:1.8rem}
@@ -163,7 +163,7 @@ a{text-decoration:none;color:inherit}
         <li><a href="index.html" data-i18n="nav-home">Home</a></li>
         <li><a href="projects.html" data-i18n="nav-proj">Projects</a></li>
         <li><a href="competitions.html" data-i18n="nav-comp">Competitions</a></li>
-        <li><a href="microsoft-moi.html" class="nav-moi" data-i18n="nav-moi">Microsoft MOI</a></li>
+        <li><a href="microsoft-moi.html" class="nav-moi" data-i18n="nav-moi">Product & Systems</a></li>
         <li class="nav-drop">
           <button class="drop-btn"><span data-i18n="nav-more">More</span> <i class="fas fa-chevron-down" style="font-size:0.5rem"></i></button>
           <div class="drop-menu">
@@ -185,11 +185,11 @@ a{text-decoration:none;color:inherit}
 
 <header class="page-header"><div class="ph-inner">
     <h1 class="page-title reveal" data-i18n="pg-title">Professional <em>Internship</em></h1>
-    <p class="page-sub reveal" data-i18n="pg-sub">Gaining hands-on experience and transforming academic knowledge into real-world impact.</p>
+    <p class="page-sub reveal" data-i18n="pg-sub">Turning academic frameworks into decisions other people had to act on.</p>
 </div></header>
 
 <main class="main">
-    
+
     <div class="comp-card reveal">
         <div class="comp-img-wrap"><img src="grouppic1.jpg" class="comp-img lb-trigger" data-gallery="vision" onerror="this.style.opacity='0.1'"></div>
         <div class="comp-content">
@@ -200,9 +200,9 @@ a{text-decoration:none;color:inherit}
             <h3 class="comp-h3" data-i18n="intern-title-1">全英文夏令營帶班導師</h3>
             <div class="comp-org"><i class="fas fa-building"></i> <span data-i18n="intern-org-1">遠見文創 Vision Creative</span></div>
             <span class="section-label" data-i18n="sec-impact">Experience</span>
-            <p class="comp-desc" data-i18n="intern-desc1-1">擔任外師與學生間的關鍵溝通橋樑。每早 07:00 抵達準備，精確同步教學目標與行政內容。</p>
+            <p class="comp-desc" data-i18n="intern-desc1-1">每天擔任外師與學生之間的即時轉譯層，清晨 7:00 到場，在雙方察覺落差前先同步好教學目標與行政安排。</p>
             <div class="dl-group"><a href="EMI educational assistant contract.pdf" target="_blank" class="btn-dl"><i class="fas fa-file-contract"></i> <span data-i18n="btn-contract">Contract</span></a></div>
-            
+
             <div class="gallery-section">
                 <div class="gallery-header" data-i18n="gallery-title">Gallery</div>
                 <div class="photo-slider">
@@ -227,7 +227,7 @@ a{text-decoration:none;color:inherit}
             <h3 class="comp-h3" data-i18n="intern-title-2">聚界潔能行政助理實習</h3>
             <div class="comp-org"><i class="fas fa-atom"></i> <span data-i18n="intern-org-2">聚界潔能 AlphaRing</span></div>
             <span class="section-label" data-i18n="sec-impact">Experience</span>
-            <p class="comp-desc" data-i18n="intern-desc2-1">協助台南實驗室開幕活動，負責 50+ 賓客接待與現場流程協調，展現穩健應變力。</p>
+            <p class="comp-desc" data-i18n="intern-desc2-1">獨立負責實驗室開幕活動的現場執行：50+ 賓客接待、即時流程調整，展現無腳本活動所需的臨場應變力。</p>
             <div class="dl-group"><a href="Employment Agreement_Wen, Hsin-Yu_06142024.pdf" target="_blank" class="btn-dl"><i class="fas fa-file-contract"></i> <span data-i18n="btn-contract">Contract</span></a></div>
         </div>
     </div>
@@ -297,37 +297,37 @@ document.getElementById('lb-close').onclick = () => { lb.classList.remove('activ
 
 // 中英文翻譯設定
 const textData = {
-  en: { 
-      'nav-home': 'Home', 'nav-proj': 'Projects', 'nav-comp': 'Competitions', 'nav-moi': 'Microsoft MOI', 'nav-more': 'More',
+  en: {
+      'nav-home': 'Home', 'nav-proj': 'Projects', 'nav-comp': 'Competitions', 'nav-moi': 'Product & Systems', 'nav-more': 'More',
       'drop-intern': 'Internship', 'drop-exchange': 'Cultural Exchange', 'drop-cert': 'Certificates', 'drop-volunteer': 'Clubs & Volunteer',
-      
-      'pg-title': 'Professional <em>Internship</em>', 
-      'pg-sub': 'Gaining hands-on experience and transforming academic knowledge into real-world impact.',
-      
+
+      'pg-title': 'Professional <em>Internship</em>',
+      'pg-sub': 'Turning academic frameworks into decisions other people had to act on.',
+
       'intern-role-1': 'Lead Teacher', 'intern-title-1': 'English Summer Camp Lead Teacher', 'intern-org-1': 'Vision Creative',
-      'sec-impact': 'Experience', 'intern-desc1-1': 'Served as a key communication bridge between foreign teachers and students. Arrived at 07:00 daily to synchronize teaching goals and administrative tasks.',
+      'sec-impact': 'Experience', 'intern-desc1-1': 'Operated as the daily translation layer between foreign instructors and students — arriving at 7:00 a.m. to align that day\'s teaching plan with the camp\'s administrative schedule before either side saw a conflict.',
       'btn-contract': 'Contract', 'gallery-title': 'Gallery',
-      
+
       'intern-role-2': 'Admin Assistant', 'intern-title-2': 'AlphaRing Admin Internship', 'intern-org-2': 'AlphaRing',
-      'intern-desc2-1': 'Assisted in the Tainan lab opening event, managing reception for 50+ guests and coordinating on-site logistics, demonstrating solid adaptability.',
-      
-      'foot-copy': '© 2026 HsinYu Wen — NCKU TCM Science' 
+      'intern-desc2-1': 'Ran on-the-ground logistics for a lab\'s public opening — reception for 50+ guests, real-time schedule adjustments, and the composure an unscripted live event demands.',
+
+      'foot-copy': '© 2026 HsinYu Wen — NCKU TCM Science'
   },
-  zh: { 
-      'nav-home': '首頁', 'nav-proj': '專案作品', 'nav-comp': '競賽經歷', 'nav-moi': '微軟 MOI', 'nav-more': '更多',
+  zh: {
+      'nav-home': '首頁', 'nav-proj': '專案作品', 'nav-comp': '競賽經歷', 'nav-moi': '產品與系統作品', 'nav-more': '更多',
       'drop-intern': '實習經歷', 'drop-exchange': '國際交流', 'drop-cert': '專業證照', 'drop-volunteer': '社團與志工',
-      
-      'pg-title': '實務經歷與 <em>專業實習</em>', 
-      'pg-sub': '將學術知識轉化為實際影響力，累積實戰經驗。',
-      
+
+      'pg-title': '實務經歷與 <em>專業實習</em>',
+      'pg-sub': '把課堂學到的框架，轉化為別人真的要據以行動的決策。',
+
       'intern-role-1': '全英文夏令營帶班導師', 'intern-title-1': '全英文夏令營帶班導師', 'intern-org-1': '遠見文創 Vision Creative',
-      'sec-impact': '實務工作內容', 'intern-desc1-1': '擔任外師與學生間的關鍵溝通橋樑。每早 07:00 抵達準備，精確同步教學目標與行政內容。',
+      'sec-impact': '實務工作內容', 'intern-desc1-1': '每天擔任外師與學生之間的即時轉譯層，清晨 7:00 到場，在雙方察覺落差前先同步好教學目標與行政安排。',
       'btn-contract': '合約下載', 'gallery-title': '實習相簿',
-      
+
       'intern-role-2': '行政助理', 'intern-title-2': '聚界潔能行政助理實習', 'intern-org-2': '聚界潔能 AlphaRing',
-      'intern-desc2-1': '協助台南實驗室開幕活動，負責 50+ 賓客接待與現場流程協調，展現穩健應變力。',
-      
-      'foot-copy': '© 2026 溫心語 — 國立成功大學 交通管理科學系' 
+      'intern-desc2-1': '獨立負責實驗室開幕活動的現場執行：50+ 賓客接待、即時流程調整，展現無腳本活動所需的臨場應變力。',
+
+      'foot-copy': '© 2026 溫心語 — 國立成功大學 交通管理科學系'
   }
 };
 
