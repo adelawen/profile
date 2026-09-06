@@ -134,7 +134,7 @@ a{text-decoration:none;color:inherit}
     .nav-drop .drop-menu { position: static; opacity: 1; visibility: visible; border: none; box-shadow: none; text-align: center; background: transparent; padding: 0; margin-top: 10px; }
     .drop-menu a { text-align: center; font-size: 0.9rem; }
     .lang-switch { margin-top: 30px; margin-left: 0; }
-    
+
     .page-header{padding:140px 0 40px}.page-title{font-size:2.8rem}
     .main{padding:20px 25px 80px;gap:30px}.comp-card{grid-template-columns:1fr;min-height:auto}
     .comp-img-wrap{height:250px;min-height:250px}.comp-content{padding:30px 25px}.comp-h3{font-size:1.8rem}
@@ -165,7 +165,7 @@ a{text-decoration:none;color:inherit}
         <li><a href="index.html" data-i18n="nav-home">Home</a></li>
         <li><a href="projects.html" data-i18n="nav-proj">Projects</a></li>
         <li><a href="competitions.html" data-i18n="nav-comp">Competitions</a></li>
-        <li><a href="microsoft-moi.html" class="nav-moi" data-i18n="nav-moi">Microsoft MOI</a></li>
+        <li><a href="microsoft-moi.html" class="nav-moi" data-i18n="nav-moi">Product & Systems</a></li>
         <li class="nav-drop">
           <button class="drop-btn"><span data-i18n="nav-more">More</span> <i class="fas fa-chevron-down" style="font-size:0.5rem"></i></button>
           <div class="drop-menu">
@@ -187,7 +187,7 @@ a{text-decoration:none;color:inherit}
 
 <header class="page-header"><div class="ph-inner">
     <h1 class="page-title reveal" data-i18n="pg-title">Cultural <em>Exchange</em></h1>
-    <p class="page-sub reveal" data-i18n="pg-sub">Through professional interpretation, high-stakes debate, and bilingual hosting, I build bridges across global communities.</p>
+    <p class="page-sub reveal" data-i18n="pg-sub">The hardest translation isn't language — it's making sure the right decision gets made when the people in the room don't share a frame of reference.</p>
 </div></header>
 
 <main class="main">
@@ -200,7 +200,7 @@ a{text-decoration:none;color:inherit}
             </div>
             <h3 class="comp-h3" data-i18n="t-2">Māori Cultural Workshop</h3>
             <span class="section-label" data-i18n="sec-task-2">Bridge of Communication</span>
-            <p class="comp-desc" data-i18n="d-2-1">於兩日高壓活動中擔任專職口譯。確保跨族群的情感與智慧能精確傳遞。</p>
+            <p class="comp-desc" data-i18n="d-2-1">於兩日高壓活動中即時口譯，確保紐西蘭代表團、教師與學生之間傳遞的不只是詞彙，更是語言背後的細微語意。</p>
             <div class="gallery-section">
                 <div class="gallery-header" data-i18n="gal-t">Gallery</div>
                 <div class="photo-slider">
@@ -218,7 +218,7 @@ a{text-decoration:none;color:inherit}
                 <div class="comp-date">Dec 2024</div>
             </div>
             <h3 class="comp-h3" data-i18n="t-4">TSMB Annual Conference</h3>
-            <p class="comp-desc" data-i18n="d-4-1">於為期兩天的學術盛會中引導國際講者，確保議程流暢。</p>
+            <p class="comp-desc" data-i18n="d-4-1">於兩日學術會議中擔任雙語主持，確保國際講者準時上場、議程跨語言依然流暢。</p>
             <div class="gallery-section">
                 <div class="gallery-header" data-i18n="gal-mc">Highlights</div>
                 <div class="photo-slider">
@@ -236,7 +236,7 @@ a{text-decoration:none;color:inherit}
                 <div class="comp-date">Aug 2024</div>
             </div>
             <h3 class="comp-h3" data-i18n="t-3">EMI American Culture Camp</h3>
-            <p class="comp-desc" data-i18n="d-3-1">小組代表挑戰全英文辯論。展現邏輯思辯與心理韌性。</p>
+            <p class="comp-desc" data-i18n="d-3-1">代表小組於賽事壓力下進行全英文辯論，即時建構並捍衛論點。</p>
             <div class="gallery-section">
                 <div class="photo-slider">
                     <img src="emi_amercan.PNG" class="slide-item lb-trigger" data-gallery="emi" onerror="this.style.display='none'">
@@ -332,34 +332,34 @@ document.getElementById('lb-close').onclick = () => { lb.classList.remove('activ
 
 // 中英文翻譯設定 (包含 NavBar 選項與本頁內容)
 const textData = {
-  en: { 
-      'nav-home': 'Home', 'nav-proj': 'Projects', 'nav-comp': 'Competitions', 'nav-moi': 'Microsoft MOI', 'nav-more': 'More',
+  en: {
+      'nav-home': 'Home', 'nav-proj': 'Projects', 'nav-comp': 'Competitions', 'nav-moi': 'Product & Systems', 'nav-more': 'More',
       'drop-intern': 'Internship', 'drop-exchange': 'Cultural Exchange', 'drop-cert': 'Certificates', 'drop-volunteer': 'Clubs & Volunteer',
-      'pg-title': 'Cultural <em>Exchange</em>', 
-      'pg-sub': 'Through professional interpretation, high-stakes debate, and bilingual hosting, I build bridges across global communities.', 
+      'pg-title': 'Cultural <em>Exchange</em>',
+      'pg-sub': 'The hardest translation isn\'t language — it\'s making sure the right decision gets made when the people in the room don\'t share a frame of reference.',
       'aw-1': 'Global Collaboration', 't-1': 'NCKU x SUSS Impact Challenge', 'btn-cert': 'Certificate',
-      'aw-2': 'Trilingual Interpreter', 't-2': 'Māori Cultural Workshop', 'sec-task-2': 'Bridge of Communication', 
-      'd-2-1': 'Served as a full-time interpreter during a high-pressure 2-day event, ensuring precise translation of cultural emotions and wisdom.', 
+      'aw-2': 'Trilingual Interpreter', 't-2': 'Māori Cultural Workshop', 'sec-task-2': 'Bridge of Communication',
+      'd-2-1': 'Interpreted in real time across a high-pressure two-day cultural exchange, ensuring nuance — not just vocabulary — carried across languages between NZ delegates, faculty, and students.',
       'gal-t': 'Gallery',
-      'aw-3': 'Representative', 't-3': 'EMI American Culture Camp', 
-      'd-3-1': 'Represented my team in a fully English debate, showcasing logical reasoning and mental resilience.',
-      'aw-4': 'Bilingual Host', 't-4': 'TSMB Annual Conference', 
-      'd-4-1': 'Guided international speakers and ensured a smooth agenda during a 2-day academic conference.', 'gal-mc': 'Highlights',
-      'foot-copy': '© 2026 HsinYu Wen — NCKU TCM Science' 
+      'aw-3': 'Representative', 't-3': 'EMI American Culture Camp',
+      'd-3-1': 'Represented my team in a fully English debate under competition pressure, building and defending an argument in real time.',
+      'aw-4': 'Bilingual Host', 't-4': 'TSMB Annual Conference',
+      'd-4-1': 'Hosted a two-day academic conference bilingually, keeping international speakers on schedule and the agenda coherent across languages.', 'gal-mc': 'Highlights',
+      'foot-copy': '© 2026 HsinYu Wen — NCKU TCM Science'
   },
-  zh: { 
-      'nav-home': '首頁', 'nav-proj': '專案作品', 'nav-comp': '競賽經歷', 'nav-moi': '微軟 MOI', 'nav-more': '更多',
+  zh: {
+      'nav-home': '首頁', 'nav-proj': '專案作品', 'nav-comp': '競賽經歷', 'nav-moi': '產品與系統作品', 'nav-more': '更多',
       'drop-intern': '實習經歷', 'drop-exchange': '國際交流', 'drop-cert': '專業證照', 'drop-volunteer': '社團與志工',
-      'pg-title': '國際交流與 <em>文化體驗</em>', 
-      'pg-sub': '透過專業學術主持、雙向專職口譯與高壓英語辯論，我致力於搭建跨國社群的溝通橋樑。', 
+      'pg-title': '國際交流與 <em>文化體驗</em>',
+      'pg-sub': '最難翻譯的從來不是語言，而是在場的人缺乏共同的思考框架時，仍要確保做出對的決定。',
       'aw-1': '跨國商案協作', 't-1': 'NCKU x SUSS Impact Challenge', 'btn-cert': '結業證書',
-      'aw-2': '雙向專職口譯', 't-2': '毛利文化交流工作坊', 'sec-task-2': '建立溝通橋樑', 
-      'd-2-1': '於兩日高壓活動中擔任專職口譯。確保跨族群的情感與智慧能精確傳遞。', 'gal-t': '活動紀錄',
-      'aw-3': '辯論小組代表', 't-3': 'EMI 美國文化營', 
-      'd-3-1': '小組代表挑戰全英文辯論。展現邏輯思辯與心理韌性。',
-      'aw-4': '專業雙語主持', 't-4': 'TSMB 年會', 
-      'd-4-1': '於為期兩天的學術盛會中引導國際講者，確保議程流暢。', 'gal-mc': '活動花絮',
-      'foot-copy': '© 2026 溫心語 — 國立成功大學 交通管理科學系' 
+      'aw-2': '雙向專職口譯', 't-2': '毛利文化交流工作坊', 'sec-task-2': '建立溝通橋樑',
+      'd-2-1': '於兩日高壓活動中即時口譯，確保紐西蘭代表團、教師與學生之間傳遞的不只是詞彙，更是語言背後的細微語意。', 'gal-t': '活動紀錄',
+      'aw-3': '辯論小組代表', 't-3': 'EMI 美國文化營',
+      'd-3-1': '代表小組於賽事壓力下進行全英文辯論，即時建構並捍衛論點。',
+      'aw-4': '專業雙語主持', 't-4': 'TSMB 年會',
+      'd-4-1': '於兩日學術會議中擔任雙語主持，確保國際講者準時上場、議程跨語言依然流暢。', 'gal-mc': '活動花絮',
+      'foot-copy': '© 2026 溫心語 — 國立成功大學 交通管理科學系'
   }
 };
 
