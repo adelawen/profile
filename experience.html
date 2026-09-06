@@ -261,6 +261,7 @@ a{text-decoration:none;color:inherit}
     <div class="footer-icons">
         <a href="mailto:h54121210@gs.ncku.edu.tw" aria-label="Email"><i class="fas fa-envelope"></i></a>
         <a href="https://www.linkedin.com/in/adelawen/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://medium.com/@shinyueh.tpe15" target="_blank" aria-label="Medium"><i class="fab fa-medium"></i></a>
     </div>
 </div>
 
@@ -357,6 +358,7 @@ const textData = {
 function switchLang(l){
   document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
   document.getElementById('btn-' + l).classList.add('active');
+  localStorage.setItem('lang', l);
   const t = textData[l];
   document.querySelectorAll('[data-i18n]').forEach(el => {
     const key = el.getAttribute('data-i18n');
@@ -365,8 +367,8 @@ function switchLang(l){
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    // 預設語言或繼承先前的選擇
-    switchLang('zh');
+    // 預設語言：優先讀取先前選擇並跨頁保留
+    switchLang(localStorage.getItem('lang') || 'zh');
 });
 </script>
 </body>
