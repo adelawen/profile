@@ -100,7 +100,7 @@ a{text-decoration:none;color:inherit}
     .nav-drop .drop-menu { position: static; opacity: 1; visibility: visible; border: none; box-shadow: none; text-align: center; background: transparent; padding: 0; margin-top: 10px; }
     .drop-menu a { text-align: center; font-size: 0.9rem; }
     .lang-switch { margin-top: 30px; margin-left: 0; }
-    
+
     .page-header{padding:140px 0 40px}.page-title{font-size:2.8rem}
     .main{padding:20px 25px 80px;gap:30px}.comp-card{grid-template-columns:1fr;min-height:auto}
     .comp-img-wrap{height:250px;min-height:250px}.comp-content{padding:30px 25px}.comp-h3{font-size:1.8rem}
@@ -131,7 +131,7 @@ a{text-decoration:none;color:inherit}
         <li><a href="index.html" data-i18n="nav-home">Home</a></li>
         <li><a href="projects.html" data-i18n="nav-proj">Projects</a></li>
         <li><a href="competitions.html" data-i18n="nav-comp">Competitions</a></li>
-        <li><a href="microsoft-moi.html" class="nav-moi" data-i18n="nav-moi">Microsoft MOI</a></li>
+        <li><a href="microsoft-moi.html" class="nav-moi" data-i18n="nav-moi">Product & Systems</a></li>
         <li class="nav-drop">
           <button class="drop-btn"><span data-i18n="nav-more">More</span> <i class="fas fa-chevron-down" style="font-size:0.5rem"></i></button>
           <div class="drop-menu">
@@ -153,7 +153,7 @@ a{text-decoration:none;color:inherit}
 
 <header class="page-header"><div class="ph-inner">
     <h1 class="page-title reveal" data-i18n="pg-title">Clubs & <em>Volunteer</em></h1>
-    <p class="page-sub reveal" data-i18n="pg-sub">Through cross-cultural engagement, I cultivate empathy and leadership by connecting with diverse communities.</p>
+    <p class="page-sub reveal" data-i18n="pg-sub">Leadership doesn't require a title — it shows up in who plans the event nobody assigned to them.</p>
 </div></header>
 
 <main class="main">
@@ -166,13 +166,13 @@ a{text-decoration:none;color:inherit}
             </div>
             <h3 class="comp-h3" data-i18n="club-title-1">NCKU ISV German Group Buddy Program</h3>
             <div class="comp-org"><i class="fas fa-university"></i> <span>National Cheng Kung University</span></div>
-            
+
             <span class="section-label" data-i18n="sec-task">Program Execution</span>
-            <p class="comp-desc" data-i18n="club-desc1-1">憑藉優秀的企劃書撰寫能力脫穎而出。詳細安排語伴活動，並於中秋節獨立籌辦大型烤肉活動。</p>
-            
+            <p class="comp-desc" data-i18n="club-desc1-1">透過競爭激烈的企劃書甄選脫穎而出，獨立規劃並執行語伴交流活動，包含從零開始籌辦一場大型中秋烤肉活動，沒有前例可循。</p>
+
             <span class="section-label" data-i18n="sec-role">Personal Growth</span>
-            <p class="comp-desc" data-i18n="club-desc1-2">透過與語伴 Josephine 的交流，我學會以成長型思維化解焦慮，找回對自我的自信。</p>
-            
+            <p class="comp-desc" data-i18n="club-desc1-2">與語伴 Josephine 相處的過程，讓我學會把焦慮當成「該解決問題了」的訊號，而不是停下來的理由——這個轉變影響了我日後面對每一個不確定情境的方式。</p>
+
             <div class="gallery-section">
                 <div class="gallery-header" data-i18n="gallery-title">Gallery</div>
                 <div class="photo-slider">
@@ -248,35 +248,35 @@ lb.onclick = (e) => { if(e.target === lb || e.target.classList.contains('lightbo
 document.getElementById('lb-close').onclick = () => { lb.classList.remove('active'); document.body.style.overflow = ''; };
 
 const textData = {
-  en: { 
-      'nav-home': 'Home', 'nav-proj': 'Projects', 'nav-comp': 'Competitions', 'nav-moi': 'Microsoft MOI', 'nav-more': 'More',
+  en: {
+      'nav-home': 'Home', 'nav-proj': 'Projects', 'nav-comp': 'Competitions', 'nav-moi': 'Product & Systems', 'nav-more': 'More',
       'drop-intern': 'Internship', 'drop-exchange': 'Cultural Exchange', 'drop-cert': 'Certificates', 'drop-volunteer': 'Clubs & Volunteer',
-      
-      'pg-title': 'Clubs & <em>Volunteer</em>', 
-      'pg-sub': 'Through cross-cultural engagement, I cultivate empathy and leadership by connecting with diverse communities.', 
-      'club-award-1': 'Selected Volunteer (Top 34)', 
-      'club-title-1': 'NCKU ISV German Group Buddy Program', 
-      'sec-task': 'Program Execution', 
-      'sec-role': 'Personal Growth', 
-      'club-desc1-1': 'Stood out with excellent proposal writing skills. Detailed arrangements for language buddy activities and independently organized a large-scale BBQ event during the Mid-Autumn Festival.',
-      'club-desc1-2': 'Through interactions with my language buddy Josephine, I learned to overcome anxiety with a growth mindset and regained self-confidence.',
-      'gallery-title': 'Gallery', 
-      'foot-copy': '© 2026 HsinYu Wen — NCKU TCM Science' 
+
+      'pg-title': 'Clubs & <em>Volunteer</em>',
+      'pg-sub': 'Leadership doesn\'t require a title — it shows up in who plans the event nobody assigned to them.',
+      'club-award-1': 'Selected Volunteer (Top 34)',
+      'club-title-1': 'NCKU ISV German Group Buddy Program',
+      'sec-task': 'Program Execution',
+      'sec-role': 'Personal Growth',
+      'club-desc1-1': 'Earned a spot through a competitive proposal-writing process, then planned and ran language-exchange programming independently — including organizing a large-scale Mid-Autumn BBQ from scratch, with no template to follow.',
+      'club-desc1-2': 'Working with my language partner Josephine taught me to treat anxiety as a signal to problem-solve rather than a stop sign — a shift that changed how I approach every ambiguous situation since.',
+      'gallery-title': 'Gallery',
+      'foot-copy': '© 2026 HsinYu Wen — NCKU TCM Science'
   },
-  zh: { 
-      'nav-home': '首頁', 'nav-proj': '專案作品', 'nav-comp': '競賽經歷', 'nav-moi': '微軟 MOI', 'nav-more': '更多',
+  zh: {
+      'nav-home': '首頁', 'nav-proj': '專案作品', 'nav-comp': '競賽經歷', 'nav-moi': '產品與系統作品', 'nav-more': '更多',
       'drop-intern': '實習經歷', 'drop-exchange': '國際交流', 'drop-cert': '專業證照', 'drop-volunteer': '社團與志工',
-      
-      'pg-title': '社團參與與 <em>志工服務</em>', 
-      'pg-sub': '在教室之外，我培養跨領域領導力與同理心。', 
-      'club-award-1': '僅錄取 34 人之計畫成員', 
-      'club-title-1': '成功大學德國團語伴志工計畫', 
-      'sec-task': '計畫執行細節', 
-      'sec-role': '心態轉變與成長', 
-      'club-desc1-1': '憑藉優秀的企劃書撰寫能力脫穎而出。詳細安排語伴活動，並於中秋節獨立籌辦大型烤肉活動。',
-      'club-desc1-2': '透過與語伴 Josephine 的交流，我學會以成長型思維化解焦慮，找回對自我的自信。',
-      'gallery-title': '活動紀錄', 
-      'foot-copy': '© 2026 溫心語 — 國立成功大學 交通管理科學系' 
+
+      'pg-title': '社團參與與 <em>志工服務</em>',
+      'pg-sub': '領導力不需要頭銜——它展現在「沒有人指派、但你主動規劃了那場活動」的時刻。',
+      'club-award-1': '僅錄取 34 人之計畫成員',
+      'club-title-1': '成功大學德國團語伴志工計畫',
+      'sec-task': '計畫執行細節',
+      'sec-role': '心態轉變與成長',
+      'club-desc1-1': '透過競爭激烈的企劃書甄選脫穎而出，獨立規劃並執行語伴交流活動，包含從零開始籌辦一場大型中秋烤肉活動，沒有前例可循。',
+      'club-desc1-2': '與語伴 Josephine 相處的過程，讓我學會把焦慮當成「該解決問題了」的訊號，而不是停下來的理由——這個轉變影響了我日後面對每一個不確定情境的方式。',
+      'gallery-title': '活動紀錄',
+      'foot-copy': '© 2026 溫心語 — 國立成功大學 交通管理科學系'
   }
 };
 
